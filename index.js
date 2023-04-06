@@ -10,10 +10,12 @@ function hasTargetSum(array, target) {
 }
 
 /* 
-  O(n^2)
+ Write the Big O time complexity of your function here
+* O(n^2)
 */
 
-/* 
+/*
+*Add your pseudocode here 
 *Create a function called hasTargetSum that takes an array of integers and a target integer as arguments.
 *Create an empty object called seenNumbers.
 *Loop through the array of integers.
@@ -24,6 +26,7 @@ function hasTargetSum(array, target) {
 */
 
 /*
+*Add written explanation of your solution here
 *The hasTargetSum function takes in an array of integers and a target integer as arguments. The goal of the function is to determine whether there are two numbers in the array that add up to the target integer. If there are, the function should return true, otherwise, it should return false.
 *To solve this problem, we can use a nested loop to compare each pair of integers in the array and check if their sum is equal to the target integer. The outer loop will iterate through each integer in the array, while the inner loop will iterate through the remaining integers in the array. By doing this, we can compare each pair of integers in the array only once and avoid comparing the same pair twice.
 *The time complexity of this solution is O(n^2) because we use a nested loop to iterate over the array. The space complexity is O(1) because we only use a few constant variables to keep track of the indices and sum of the integers.
